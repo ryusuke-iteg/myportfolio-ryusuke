@@ -1,0 +1,588 @@
+/*--------------------全体--------------------*/
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  color: #333;
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(247, 244, 244);
+  margin: 0;
+  
+}
+
+body a{
+  text-decoration: none;
+  color: #333;
+}
+
+
+
+/*--------------------全体--------------------*/
+
+
+/* --------------------PC用-------------------- */
+@media(min-width:760px){
+/* ----------header---------- */
+
+header{
+  max-width: 960px;
+  height: 250px;
+  margin: 0 auto;
+}
+.top-wrap{
+  max-width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#top-title{
+  font-size: 40px;
+  margin: 0;
+}
+.top-list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  padding: 0;
+} 
+
+.top-list li{
+  margin: 20px;
+}
+
+
+/*---------- header ----------*/
+
+
+/* ----------main---------- */
+
+.main-face{
+  height: 400px;
+  width: 100%;
+  background-image: url(../img/photo-1450037649614-fd8503521870.jfif);
+  background-size:cover;           
+  background-position:center center;   
+  background-repeat: no-repeat;
+  object-fit: cover;
+
+}
+
+/* about */
+.container{
+  margin: 0 auto;
+  margin-bottom: 200px;
+  max-width: 960px;
+}
+
+.contents-title{
+  font-size: 50px;
+  font-weight: 100;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.about-contents{
+  display: flex;
+  justify-content: center;
+}
+
+.about-img{
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+  margin-right: 100px;
+}
+
+.about-text{
+  text-align-last: left;
+  line-height: 40px;
+  font-size: 14px;
+  margin-bottom: 70px;
+}
+
+.about-Prof{
+  text-align-last: left;
+  line-height: 70px;
+  margin-top: 50px;
+}
+
+/* about */
+
+
+/* skills */
+.skills-icon{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.icon-wrap{
+  margin: 30px auto;
+}
+
+.icon-wrap p{
+  text-align: center;
+  font-size: 16px;
+}
+
+.icon{
+  font-size: 140px;
+}
+
+/* skills */
+
+
+/* Portfolio */
+
+.portfolio-wrap{
+  display: flex;
+  justify-content: center;
+
+}
+
+.portfolio-contents{
+  width: 100px;
+  height: 100px;
+  border:2px solid #333;
+  margin: 0 50px;
+
+}
+
+.portfolio-contents a{
+  display: block;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+/* Portfolio */
+
+
+/* Contact */
+.contact-container{
+  margin: 0 auto;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 50px;
+
+}
+.item-name{
+  margin-bottom: 5px;
+}
+.item-name span{
+  font-size: 12px;
+  padding: 2px;
+  margin-left: 10px;
+  background-color: #F45555;
+  color: #fff;
+}
+
+input[type='text']{
+  width: 500px;
+  max-width: 400px;
+  padding: 5px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea{
+  width: 500px;
+  height: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+input.submitBtn {
+  width: 228px;
+  height: 54px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #f45555;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+/* Contact */
+
+
+/*----------main ----------*/
+
+
+/* footer */
+
+footer{
+  max-width: 960px;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.bottom-wrap{
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  padding: 0;
+} 
+
+.footer-list li{
+  margin: 20px;
+}
+
+
+/* footer */
+
+}
+/* --------------------PC用-------------------- */
+
+/* --------------------タブレット用-------------------- */
+  @media (max-width:830px){
+   /* ----------header---------- */
+
+#top-title{
+  font-size: 34px;
+  margin: 0;
+}
+
+/*---------- header ----------*/
+
+/* ----------main---------- */
+
+/* about */
+
+.about-img{
+  object-fit: cover;
+  width: 180px;
+  height: 180px;
+  margin-right: 100px;
+}
+
+.about-text{
+  text-align-last: left;
+  line-height: 40px;
+  font-size: 12px;
+  margin-bottom: 70px;
+}
+
+/* about */
+
+/* ----------main---------- */
+  }
+/* --------------------タブレット用-------------------- */
+
+/* --------------------スマートフォン用-------------------- */
+@media(max-width:760px){
+/* ----------header---------- */
+
+header{
+  max-width: 760px;
+  height: 200px;
+  margin: 0 auto;
+  display:block ;
+  align-items: center;
+}
+.top-wrap{
+  display: block;
+
+}
+#top-title{
+  font-size: 30px;
+  margin: 30px;
+}
+.top-list{
+  
+  max-width: 760px;
+  display: block;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+  text-align: left;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 1px solid rgb(218, 213, 213);
+  border-right: 1px solid rgb(218, 213, 213);
+} 
+
+.top-list li{
+  margin: 0;
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(218, 213, 213);
+  border-bottom: 0;
+  border-right: 0;
+
+
+}
+.top-list a{
+  display: block;
+  width: 100%;
+  padding: 12px 0;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.menu-about{
+  width: 50%;
+  float: left;
+}
+
+.menu-skills{
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.menu-portfolio{
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.menu-contact{
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+
+/*---------- header ----------*/
+
+
+/* ----------main---------- */
+
+.main-face{
+  height: 300px;
+  background-image: url(../img/photo-1450037649614-fd8503521870.jfif);
+  background-size:cover;           
+  background-position:center center;   
+  background-repeat: no-repeat;
+  object-fit: cover;
+
+}
+
+/* about */
+.container{
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+
+.contents-title{
+  font-size: 50px;
+  font-weight: 100;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.about-contents{
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-img{
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.about-text{
+  text-align-last: left;
+  line-height: 40px;
+  font-size: 14px;
+  margin-bottom: 70px;
+}
+
+.about-Prof{
+  text-align-last: left;
+  line-height: 70px;
+  margin-top: 50px;
+}
+
+/* about */
+
+
+/* skills */
+
+.skills-icon{
+  display: flex;
+  flex-direction: column;
+}
+.icon-wrap{
+  margin: 50px auto;
+}
+
+.icon-wrap:nth-child(1){
+  margin-top: 0;
+}
+
+.icon-wrap p{
+  text-align: center;
+  font-size: 16px;
+}
+
+.icon{
+  font-size: 140px;
+}
+
+/* skills */
+
+
+/* Portfolio */
+
+.portfolio-wrap{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.portfolio-contents{
+  width: 100px;
+  height: 100px;
+  border:2px solid #333;
+  margin: 0 50px;
+
+}
+
+.portfolio-contents a{
+  display: block;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+/* Portfolio */
+
+
+/* Contact */
+.contact-container{
+  margin: 0 auto;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+}
+.textbox{
+  text-align: left;
+}
+.item-name{
+  margin-bottom: 5px;
+}
+.item-name span{
+  font-size: 12px;
+  padding: 2px;
+  margin-left: 10px;
+  background-color: #F45555;
+  color: #fff;
+}
+
+input[type='text']{
+  width: 80%;
+  max-width: 400px;
+  padding: 5px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea{
+  width: 80%;
+  height: 150px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+input.submitBtn {
+  width: 228px;
+  height: 54px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  background-color: #f45555;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+/* Contact */
+/*----------main ----------*/
+
+footer{
+  max-width: 760px;
+  height: 250px;
+  margin: 0 auto;
+  align-items: center;
+  display: block;
+  text-align: center;
+}
+.bottom-wrap{
+  display: block;
+
+}
+
+.footer-list{
+  
+  max-width: 760px;
+  display: block;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+  text-align: left;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 1px solid rgb(218, 213, 213);
+  border-right: 1px solid rgb(218, 213, 213);
+} 
+
+.footer-list li{
+  margin: 0;
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(218, 213, 213);
+  border-bottom: 0;
+  border-right: 0;
+
+}
+.footer-list a{
+  display: block;
+  width: 100%;
+  padding: 12px 0;
+}
+
+}
+
+/* --------------------スマートフォン用-------------------- */
+
+
+
